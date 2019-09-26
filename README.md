@@ -33,7 +33,9 @@ These are point entities that can be useful when ripenting maps. They function i
 }
 ```
 
-Known Issues: The example map contains a reference to point_hurt but hasn't been implemented. ( TBD ).
+# IF YOU ARE DISTRIBUTING A RIPENTED MAP BE SURE TO HAVE THE SERVER OWNERS INSTALL THIS PLUGIN TO AVOID MAPS BEING BROKEN!!! AND MAKE SURE YOU ARE DOWNLOADING THIS PLUGIN FROM HERE AND NOT FROM ANY OTHER SOURCE!!!
 
-Be sure to check out the example map on usage.
+Known Issues: The example map contains a reference to point_hurt but hasn't been implemented or finished. ( TBD ).
+
+Be sure to check out the example map on how to use these entities properly.
 Thanks, and have fun :3
