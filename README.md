@@ -1,5 +1,5 @@
 # Svencoop-Point-Entities-Plugin
-These are point entities that can be useful when ripenting maps. They function identical to their brush counterparts. This plugin contains the following entities:
+These are point entities that can be useful when ripenting maps. They function identical to their brush counterparts but use mins/maxs for bounds. This plugin contains the following entities:
 
 # point_trigger
 ```
