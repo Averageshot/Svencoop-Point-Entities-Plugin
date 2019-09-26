@@ -1,8 +1,8 @@
 # Svencoop-Point-Entities-Plugin
-Point entities that can be used for ripenting Svencoop maps
+point entities that can be used for ripenting svencoop maps
 
 TO INSTALL:
-Insert this into your default_plugins.txt file:
+insert this into your default_plugins.txt file:
 
 "plugin"
 {
