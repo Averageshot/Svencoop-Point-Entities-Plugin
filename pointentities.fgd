@@ -1,0 +1,79 @@
+//
+// pointentities.fgd by Aperture
+//
+
+//
+// All entities must have this baseclass
+//
+@BaseClass = Mandatory
+[
+	ondestroyfn(string) : "OnDestroy Function"
+]
+
+@BaseClass = Angles
+[
+	angles(string) : "Pitch Yaw Roll (X Y Z)" : "0 0 0"
+]
+
+@BaseClass base(Mandatory) = Targetname
+[
+	targetname(target_source) : "Name"
+]
+
+@BaseClass = Target
+[
+	target(target_destination) : "Target"
+]
+
+@PointClass base(Targetname) color(90 215 60) = point_trigger : "Point Trigger"
+[
+	spawnflags(Flags) =
+	[
+		1 : "Monsters" : 0
+		2 : "No Clients" : 0
+		4 : "Pushables" : 0
+		8 : "Trigger Once" : 0
+		16 : "Start Disabled" : 0
+	]
+	
+	mins( integer ): "Min size" : "-128 -128 0"
+	maxs( integer ): "Max size" : "128 128 128"
+	target( string ) : "Target"
+	wait( integer ): "Delay before reset" : 0.1
+]
+
+@PointClass base(Targetname) color( 255 231 199 ) = point_teleport : "Point Teleport"
+[
+	spawnflags(Flags) =
+	[
+		1 : "Monsters" : 0
+		2 : "No Clients" : 0
+		4 : "Pushables" : 0
+		8 : "Trigger Once" : 0
+		16 : "Start Disabled" : 0
+	]
+	
+	mins( integer ): "Min size" : "-128 -128 0"
+	maxs( integer ): "Max size" : "128 128 128"
+	target( string ) : "Target"
+	message( string ): "Teleport Destination"
+	wait( integer ): "Delay before reset" : 0.1
+]
+
+@PointClass base(Targetname) color(90 215 60) = point_wall : "Point Wall"
+[
+	spawnflags(Flags) =
+	[
+		1 : "Start Off" : 0
+	]
+	
+	mins( integer ): "Min size" : "-128 -128 0"
+	maxs( integer ): "Max size" : "128 128 128"
+]
+
+@PointClass base(Targetname) color(255 255 0) = trigger_dispatchkeyvalue : "Dispatches a keyvalue to an entity"
+[
+	target(string) : "Target Entity"
+	netname(string) : "Key"
+	Value(integer) : "Value"
+]
