@@ -51,6 +51,7 @@
 		4 : "Pushables" : 0
 		8 : "Trigger Once" : 0
 		16 : "Start Disabled" : 0
+		32 : "Use Dest Angles" : 0
 	]
 	
 	mins( integer ): "Min size" : "-128 -128 0"
