@@ -23,7 +23,7 @@ These are point entities that can be useful when ripenting maps. They function i
 ```
 
 # TO INSTALL:
-1. download and uzip the contents into the main /svencoop/ or /svencoop_addon/ directory
+1. download and unzip the contents into the main /svencoop/ or /svencoop_addon/ directory
 2. insert this into your default_plugins.txt file:
 ```
 "plugin"
